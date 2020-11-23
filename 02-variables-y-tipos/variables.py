@@ -16,7 +16,7 @@ print(decimal)
 
 # Concatenación
 nombre = "Alexis"
-apellido = "Solis"
+apellido = "A"
 edad = "30"
 print(nombre + " " + apellido + " Edad:" + edad)
 

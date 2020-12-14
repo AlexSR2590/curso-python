@@ -30,3 +30,19 @@ print(fecha_completa.month)
 print(fecha_completa.day)
 fecha_personalizada = fecha_completa.strftime("%d/%m/%Y, %H:%M:%S")
 print(fecha_personalizada)
+print("-----------------------------\n")
+
+#Modulo de matemáticas
+import math
+print("Raíz cuadrada de 25 = ", math.sqrt(25))
+
+print("Número Pi: ", math.pi)
+
+print("Redondear a alta: ", math.ceil(6.56789))
+
+print("Redondear a la baja: ", math.floor(6.56789))
+
+#Modulo random
+import random
+for i in range(10):
+	print("Número aleatorio entre 15 y 60: ", random.randint(15, 60))

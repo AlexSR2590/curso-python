@@ -48,3 +48,4 @@ except TypeError:
 except Exception as e:
 	print(type(e))
 	print("Ha ocurrido un erro: ", type(e).__name__)
+

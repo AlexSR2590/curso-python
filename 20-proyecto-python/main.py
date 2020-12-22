@@ -24,4 +24,6 @@ if accion== "registro":
 
 elif accion =="login":
 	hazEl.login()
-	
+
+else:
+	print("\nError... Opcion no valida!!!")

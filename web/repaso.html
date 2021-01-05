@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Repaso Web</title>
+	</head>
+	<body>
+		<h1>Títutlo de la página web</h1>
+		<h2>Bienvenidos</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Aliquam aliquam justo non ante interdum, et tincidunt turpis suscipit. 
+			Ut in mauris vel erat viverra tempor. 
+			Sed vel lorem sit amet lorem efficitur luctus. Praesent vitae elit mi.
+		</p>
+		<p>
+			Quisque porttitor ante sit amet cursus mollis. Curabitur porta erat purus. 
+			Ut quis magna at nulla volutpat rhoncus vitae at dolor. Quisque maximus sem eget nisl feugiat, at mollis tortor cursus. 
+			Ut ullamcorper in velit nec vehicula. Aenean suscipit mi sit amet velit varius, vel lobortis purus fermentum.
+		</p>
+		<hr/>
+		<h3>Tercer encabezado de la página</h3>
+		<p>
+			In id quam tincidunt ex suscipit aliquam. Sed egestas lacus eu rutrum tempor. 
+			Proin lacinia est vitae massa fermentum, sed porttitor ante sodales. 
+			<blockquote>In pellentesque in libero nec sodales. Suspendisse potenti.</blockquote>			
+		</p>
+		<hr/>
+		<h3>Lista ordernada</h3>
+		<ol>
+			<li>Manzána</li>
+			<li>Pera</li>
+			<li>Sandía</li>
+			<li>Melon</li>
+		</ol>
+		<hr/>
+		<h3>Lista desordenada</h3>
+		<ul>
+			<li>Naranja</li>
+			<li>Uva</li>
+				<ul>
+					<li>Roja</li>
+					<li>Verde</li>
+				</ul>
+			<li>Fresa</li>
+			<li>Mango</li>
+		</ul>
+		<hr/>
+		<h3>Imagen</h3>
+		<img src="imagen/lobo.jpg" alt="Imagen lobo" title="lobo" width="455px"/>
+		<hr/>
+		<h3>Tablas</h3>
+		<table border="1">
+			<tr>
+				<th>nombre</th>
+				<th>Apellido</th>
+				<th>Edad</th>
+			</tr>
+			<tr>
+				<td>Alex</td>
+				<td>Solís</td>
+				<td>30 años</td>
+			</tr>
+			<tr>
+				<td>Carlos</td>
+				<td>Ortega</td>
+				<td>28 años</td>
+			</tr>
+			<tr>
+				<td colspan="3">vacio</td>
+			</tr>
+		</table>
+		<hr/>
+		<h3>Formulario</h3>
+		<form>
+			<p>
+				<label for="nombre">Nombre: </label>
+				<input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+			</p>
+			<p>
+				<label for="description">Descripción: </label>
+				<textarea name="description"></textarea>
+			</p>
+			<p>
+				<input type="radio" name="genero" value="hombre">Hombre<br/>
+				<input type="radio" name="genero" value="mujer">Mujer<br/>
+				<input type="radio" name="genero" value="nada">Nada<br/>
+			</p>
+			<p>
+				<select name="genero2">
+					<option value="hombre">Hombre</option>
+					<option value="mujer">Mujer</option>
+					<option value="nada">Nada</option>
+				</select>
+			</p>
+			<input type="submit" value="Enviar formulario">
+		</form>
+	</body>
+</html>

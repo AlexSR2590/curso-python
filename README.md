@@ -1,1 +1,1 @@
-# curso-python
+# curso-sin-terminar-python
